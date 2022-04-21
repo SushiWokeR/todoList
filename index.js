@@ -40,7 +40,7 @@ const newItem = (text)=> {
     }
     
 
-    // TODO: Использовать material UI для создания стилей!!!
+
     editBtn.onclick = function () {
 
         let prevVal = textContentSpan.innerText;
@@ -53,7 +53,7 @@ const newItem = (text)=> {
             undoBtn.className = 'undo-btn';
             undoBtn.innerText = 'Undo';
 
-            textContentSpan.contentEditable = true; // TODO: добавить стиль для редактируемого значения (что то вроде рамки)
+            textContentSpan.contentEditable = true; // TODO: add stylest for editing span
 
             buttons.append(undoBtn);
 
