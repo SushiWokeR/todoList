@@ -1,0 +1,38 @@
+body {
+    color: red;
+    background-color: rgb(131, 131, 131);
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.itemList {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    width: 500px;
+}
+
+.text {
+    cursor: pointer;
+    overflow-wrap: anywhere;
+    padding-right: 10px;
+}
+
+.overlined {
+    text-decoration: line-through;
+}
+
+.control-btns {
+    display: flex;
+    width: 100px;
+    height: 20px;
+}
